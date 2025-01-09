@@ -27,7 +27,7 @@
 
 - `server.js` - 主程序入口
 - `public/` - 静态文件和前端代码
-  - `admin.html` - 管理后台页面
+- `admin.html` - 管理后台页面
 - `package.json` - 项目依赖和脚本配置
 
 ## 开发指南
