@@ -13,7 +13,6 @@
 
 - 后端：Node.js + Express
 - 前端：HTML + CSS + JavaScript
-- 数据库：MongoDB
 
 ## 安装指南
 
