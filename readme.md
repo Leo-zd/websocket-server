@@ -1,18 +1,39 @@
-# Project Name
+# 项目名称
 
-A Node.js web application
+一个基于Node.js的Web应用
 
-## Installation
+## 项目简介
 
-1. Clone this repository
-2. Run `npm install` to install dependencies
+这是一个使用Node.js开发的后台管理系统，主要功能包括：
+- websocket的后台管理
+- 群发消息
+- 监控在线人数
 
-## Running the Application
+## 技术栈
 
-Run `node server.js` to start the development server
+- 后端：Node.js + Express
+- 前端：HTML + CSS + JavaScript
+- 数据库：MongoDB
 
-## Project Structure
+## 安装指南
 
-- `server.js` - Main application entry point
-- `public/` - Static files and frontend code
-- `package.json` - Project dependencies and scripts
+1. 克隆本仓库
+2. 运行 `npm install` 安装依赖
+
+## 运行项目
+
+运行 `node server.js` 启动开发服务器
+
+## 项目结构
+
+- `server.js` - 主程序入口
+- `public/` - 静态文件和前端代码
+  - `admin.html` - 管理后台页面
+- `package.json` - 项目依赖和脚本配置
+
+## 开发指南
+
+1. 确保已安装Node.js v16+
+2. 安装依赖：`npm install`
+3. 开发模式运行：`node server.js`
+4. 访问 http://localhost:3000/admin.html 查看管理后台
