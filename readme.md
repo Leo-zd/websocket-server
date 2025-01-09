@@ -35,4 +35,5 @@
 1. 确保已安装Node.js v16+
 2. 安装依赖：`npm install`
 3. 开发模式运行：`node server.js`
-4. 访问 http://localhost:3000/admin.html 查看管理后台
+4. 访问 http://localhost:3001/admin 查看管理后台
+5. 连接websocket ws://localhost:3000 ws连接
